@@ -1,7 +1,15 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import { Container } from './AppStyles';
+import Header from './header/HeaderComponent';
+import Search from './search/SearchComponent';
 
-const AppComponent = () => {
-  return <h1>test</h1>;
-};
+const AppComponent = () => (
+  <Fragment>
+    <Header />
+    <Container>
+      <Search />
+    </Container>
+  </Fragment>
+);
 
 export default AppComponent;
