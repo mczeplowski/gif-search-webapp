@@ -14,5 +14,6 @@ export const Logo = styled.header`
 
   span:first-of-type {
     color: #5294e2;
+    text-transform: uppercase;
   }
 `;

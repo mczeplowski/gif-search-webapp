@@ -4,8 +4,8 @@ import { Header, Logo } from './HeaderStyles';
 const HeaderComponent = () => (
   <Header>
     <Logo>
-      <span>Search</span>
       <span>Gif</span>
+      <span>Search</span>
     </Logo>
   </Header>
 );
